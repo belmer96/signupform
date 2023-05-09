@@ -6,21 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div id="container">
 
 <div id="leftside">
-    <div id="image">
+    <div id="logostuff">
+        <div id="imgcontainer">
+            <img src="./box.svg" style="width: 100px;height: 100px">
+        </div>
+        <div id="caption">Cardboard City</div>
     </div>
-    
+    <div id="image"></div>
 </div>
+
 <div id="rightside">
+    <p id="rightmon">
+        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span>now</span> to get started.
+    </p>
+    <p id="rightmon2">
+        You <span>know</span> you want to!
+    </p>
+
+    <p id="rightmon3">
+        Let's Do this!
+    </p>
     <form>
+        <div id="formleft">
+            <div class="input">
+                <label for="first-name">First name</label>
+                <input type="text" name="first-name" id="first-name" required>
+            </div>
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="input">
+                <label for="password1">Password</label>
+                <input type="password" name="password1" id="password1" required>
+            </div>
+
+        </div>
+
+        <div id="formright">
+            <div class="input">
+                <label for="Last-name">Last name</label>
+                <input type="text" name="Last-name" id="Last-name" required>
+            </div>
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="input">
+                <label for="password2">Password</label>
+                <input type="password" name="password2" id="password2" required>
+            </div>
+
+        </div>
         
     </form>
-    BRO
+    
 </div>
 
 </div>
